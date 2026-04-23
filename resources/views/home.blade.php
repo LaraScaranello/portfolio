@@ -38,6 +38,16 @@
         </div>
     </div>
 
+    {{-- SOBRE --}}
+    <section class="py-16 border-t max-w-2xl">
+        <h2 class="text-2xl font-semibold mb-6">Sobre</h2>
+
+        <p class="text-gray-700 leading-relaxed">
+            Sou desenvolvedora focada em criar sites e lojas online que não só
+            funcionam bem, mas também ajudam negócios a vender mais.
+        </p>
+    </section>
+
     {{-- PROJETOS --}}
     <section class="py-16 border-t">
         <h2 class="text-2xl font-semibold mb-10">Projetos</h2>
@@ -71,16 +81,6 @@
             </div>
 
         </div>
-    </section>
-
-    {{-- SOBRE --}}
-    <section class="py-16 border-t max-w-2xl">
-        <h2 class="text-2xl font-semibold mb-6">Sobre</h2>
-
-        <p class="text-gray-700 leading-relaxed">
-            Sou desenvolvedora focada em criar sites e lojas online que não só
-            funcionam bem, mas também ajudam negócios a vender mais.
-        </p>
     </section>
 
     {{-- CONTATO --}}
