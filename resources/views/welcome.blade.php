@@ -214,17 +214,32 @@
                 {{-- Projeto 1 --}}
                 <div class="group bg-white/60 border border-black/5 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
 
-                    <div class="h-56 bg-gray-200 group-hover:scale-[1.02] transition-transform duration-300"></div>
+                    <div class="h-56 bg-gray-200"></div>
 
-                    <div class="p-6 space-y-2">
+                    <div class="p-6 space-y-3">
+                
+                        <div class="flex items-center justify-between">
+                            <h3 class="text-lg font-semibold text-gray-900">
+                                ITCloud 🚀
+                            </h3>
 
-                        <h3 class="text-lg font-semibold text-gray-900">
-                            Loja de Cosméticos
-                        </h3>
+                            <span class="text-xs px-2 py-1 rounded-full bg-[#D06224]/10 text-[#D06224]">
+                                Fullstack
+                            </span>
+                        </div>
 
                         <p class="text-gray-600 text-sm">
-                            E-commerce com carrinho, checkout e gestão de produtos.
+                            Sistema completo em Laravel + Livewire para gestão de desenvolvedores e artigos técnicos.
                         </p>
+
+                        <div class="text-xs text-gray-500">
+                            Laravel • Livewire • Tailwind • PHP • Pest
+                        </div>
+
+                        <a href="/projetos/itcloud"
+                           class="inline-block mt-3 text-sm font-medium text-[#D06224] hover:underline">
+                            Ver detalhes →
+                        </a>
 
                     </div>
                 </div>
