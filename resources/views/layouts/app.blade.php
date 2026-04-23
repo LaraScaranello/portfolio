@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Lara Scaranello - Portfólio</title>
-        @vite('resources/css/app.css')
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
 
     <body class="bg-[#EAC891]/40 text-gray-900">
