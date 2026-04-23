@@ -8,7 +8,7 @@
 
     <body class="bg-[#EAC891]/40 text-gray-900 scroll-smooth pt-16">
 
-        <nav class="fixed top-0 left-0 w-full z-50 bg-[#D06224]/95 backdrop-blur-md text-[#EAC891]">
+        <nav class="fixed top-0 left-0 w-full z-50 bg-[#8A8035]/95 backdrop-blur-md text-[#EAC891]">
             <div class="px-6 py-5 flex justify-between items-center max-w-6xl mx-auto">
 
                 <h1 class="font-serif text-lg tracking-wide flex items-center gap-2">
@@ -33,12 +33,12 @@
                         <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#EAC891] transition-all duration-300 group-hover:w-full"></span>
                     </a>
 
-                    <a href="/projetos" class="relative group">
+                    <a href="#projetos" class="relative group">
                         Projetos
                         <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#EAC891] transition-all duration-300 group-hover:w-full"></span>
                     </a>
 
-                    <a href="/contato" class="relative group">
+                    <a href="#contato" class="relative group">
                         Contato
                         <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#EAC891] transition-all duration-300 group-hover:w-full"></span>
                     </a>
