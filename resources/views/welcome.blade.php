@@ -261,7 +261,7 @@
 
                 {{-- IMAGEM --}}
                 <div class="flex justify-center md:justify-start">
-                    <img src="/build/assets/perfil.png"
+                    <img src="{{ 'perfil.png' }}"
                          alt="Lara Scaranello"
                          class="w-80 h-100 object-cover rounded-2xl shadow-lg border border-[#EAC891]/30">
                 </div>
