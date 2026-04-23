@@ -17,6 +17,8 @@ COPY . .
 RUN composer install --no-dev --optimize-autoloader
 
 # FRONTEND BUILD (ESSENCIAL)
+RUN rm -rf public/build
+
 RUN npm install
 RUN npm run build
 
