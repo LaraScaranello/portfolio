@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', static fn() => view('home'));
+Route::get('/', static fn() => view('welcome'));
 
 Route::get('/projetos', static function () {
     $projetos = [
