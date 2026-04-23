@@ -6,9 +6,9 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
 
-    <body class="bg-[#EAC891]/40 text-gray-900">
+    <body class="bg-[#EAC891]/40 text-gray-900 scroll-smooth pt-16">
 
-        <nav class="bg-[#D06224] text-[#EAC891]">
+        <nav class="fixed top-0 left-0 w-full z-50 bg-[#D06224]/95 backdrop-blur-md text-[#EAC891]">
             <div class="px-6 py-5 flex justify-between items-center max-w-6xl mx-auto">
 
                 <h1 class="font-serif text-lg tracking-wide flex items-center gap-2">
@@ -20,6 +20,16 @@
                 <div class="space-x-8 text-sm">
                     <a href="/" class="relative group">
                         Home
+                        <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#EAC891] transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+
+                    <a href="#sobre" class="relative group">
+                        Sobre
+                        <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#EAC891] transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+
+                    <a href="#skills" class="relative group">
+                        Skills
                         <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#EAC891] transition-all duration-300 group-hover:w-full"></span>
                     </a>
 
